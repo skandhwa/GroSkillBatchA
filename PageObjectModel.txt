@@ -1,0 +1,51 @@
+1> Singleton Design Pattern 
+
+2> Page Object Model
+
+Page Object Model basically means that for every web page present in the application there should a separate page class,
+this page class will contain all the locators of that page and all methods related to the same page ,
+PageFactory is one of the unit of this page object model ,
+Page factor contains two annotations 
+
+@init --- > To initialize the web elements on a web page 
+
+@FindBy ----> To locate the elements on a web page 
+
+
+1>PageFactory.initElements()
+
+
+2>@FindBy @FindBys
+
+@FindBys
+(
+@FindBy(xpath1)
+@FindBy(xpath2)
+)}
+
+private List<WebElement> x;
+
+
+@FindAll
+(
+
+@FindBy(xpath1)
+@FindBy(xpath2)
+@FindBy(xpath3)
+
+)
+
+WebElement username;
+
+
+Advantages 
+1>Easy to maintain
+2>Code Reuasability
+3>Easy readability
+
+
+
+
+
+
+
