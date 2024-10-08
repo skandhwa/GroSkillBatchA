@@ -1,0 +1,8 @@
+PageFactory\NewLoginPage.class
+PageFactory\NewCustomerCreationAppPage.class
+Utilities\FetchDataFromProperty.class
+stepDefinition2\StepDefinition2.class
+Utilities\FetchDataFromExcel.class
+Utilities\BaseClass.class
+stepDefinition2\TestRunner.class
+Utilities\FetchDataFromDb.class
