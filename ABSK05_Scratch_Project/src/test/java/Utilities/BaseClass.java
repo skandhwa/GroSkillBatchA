@@ -102,6 +102,7 @@ public class BaseClass {
 		File srcfile=srcshot.getScreenshotAs(OutputType.FILE);
 		File DestFile=new File(Constant.ScreenShotPath);
 		FileUtils.copyFile(srcfile, DestFile);
+		System.out.println("Hello");
 		
 		
 	}
